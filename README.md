@@ -18,7 +18,9 @@ Before starting, ensure you have the following:
 ---
 
 ## 1. Create an Azure Virtual Machine
+
 - Log in to the Azure portal and navigate to **Create a resource**.
+  
   ![image](images/1.png)
 
 - Under **Virtual Machines**, click **Create**  
@@ -42,7 +44,7 @@ Before starting, ensure you have the following:
 > Make sure your security type is set to **'Standard'** as OpenVPN is not compatible with Trusted Launch VM because this feature uses enhanced security measures, such as secure boot and vTPM, which may conflict with the OpenVPN setup process.
   ![image](images/7.png)
 
-- Select **Standard_B1s** as it is part of Azure's free tier and provides sufficient resources for running an OpenVPN server.
+- Select **'Standard_B1s'**, as it is part of Azure's free tier, providing sufficient resources for running an OpenVPN server while also being the most cost-effective option.
 
   ![image](images/8.png)
 
