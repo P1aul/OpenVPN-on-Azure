@@ -1,8 +1,5 @@
 # OpenVPN Server on Azure
 
-## Comprehensive Setup Guide
-A detailed guide to setting up a secure OpenVPN server on Azure to enable encrypted remote connections, connect personal devices, and gain hands-on experience with Azure services and networking.
-
 Before starting, ensure you have the following:
 - An **Azure account** with the ability to create virtual machines.
 - OpenVPN client software installed on your devices.
