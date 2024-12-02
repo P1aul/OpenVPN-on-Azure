@@ -1,11 +1,21 @@
 # OpenVPN Server on Azure
+A detailed step-by-step guide to setting up a secure OpenVPN server on Microsoft Azure.
+This project enables encrypted remote connections, connects personal devices securely, and provides hands-on experience with Azure services, networking, and OpenVPN configuration.
+
+Disclaimer: This project was created as part of my learning journey to deepen my understanding of Azure services and VPN configurations. While I've taken care to ensure accuracy, this guide reflects my current knowledge and may evolve over time as I continue to learn. Constructive feedback and suggestions are always welcome!
 
 Before starting, ensure you have the following:
 - An **Azure account** with the ability to create virtual machines.
 - OpenVPN client software installed on your devices.
 
+## Table of Contents
+- [1. Create an Azure Virtual Machine](#1-create-an-azure-virtual-machine)
+- [2. SSH into your Virtual Machine](#2-ssh-into-your-virtual-machine)
+- [3. Configure OpenVPN Admin Panel](#3-configure-openvpn-admin-panel)
+- [4. Connect to OpenVPN Client](#4-connect-to-openvpn-client)
+- [Summary](#summary)
 
-## Steps
+---
 
 ## 1. Create an Azure Virtual Machine
 - Log in to the Azure portal and navigate to **Create a resource**.
